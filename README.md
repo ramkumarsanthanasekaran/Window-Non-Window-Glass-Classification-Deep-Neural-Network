@@ -126,12 +126,12 @@ For production deployment, export the model + scaler and use predict.py or conve
 
 Minimal requirements:
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-tensorflow>=2.9   # optional; fallback uses scikit-learn if TF absent
+pandas,
+numpy,
+matplotlib,
+seaborn,
+scikit-learn,
+tensorflow>=2.9   # optional; fallback uses scikit-learn if TF absent,
 joblib
 
 Install either full TF or rely on the sklearn fallback for quick local runs.
